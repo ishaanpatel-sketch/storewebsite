@@ -3,10 +3,11 @@
     src: url(Supersonic\ Rocketship.ttf);
 }
 body{
-    background-color: rgb(131, 74, 0);
+    background-color: rgb(43, 203, 243);
 }
+
 .header{
-    background-color: rgba(255, 239, 215, 0.829);
+    background-color: rgb(0, 183, 255);
     
     text-align: center;
     
@@ -15,6 +16,31 @@ body{
     margin-right: -1%;
     margin-top: 2%;
     font-size: xx-large;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: headerFont;
+}
+
+h1{
+    font-family:cursive;
+    color:aliceblue;
+    font-size:medium
+}
+
+ul{
+    list-style-type:none;
+    margin:-4%;
+    padding:;
+    display:flex;
+}
+
+ul li a {
+    display:block;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+ul li a:hover {
+    text-decoration:underline;
 }
