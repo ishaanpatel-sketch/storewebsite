@@ -34,8 +34,9 @@ h2{
 }
 ul{
     list-style-type:none;
-    margin:-4%;
+    margin:-2.5%;
     display:flex;
+    margin-left: 3%;
 }
 
 ul li a {
@@ -159,3 +160,22 @@ ul li a:hover {
 .slideshow-container{
     text-align: center;
 }
+
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+ }
+ 
+ button {
+  padding: 10px 15px;
+  background-color: navy;
+  color: white;
+  border: none;
+ }
+ 
+ button:hover {
+  background-color: darkblue;
+ }
+ 
